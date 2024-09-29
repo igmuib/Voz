@@ -1,1 +1,1 @@
-# Voz
+# Síntomas vocales en profesores
