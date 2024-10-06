@@ -1,0 +1,65 @@
+---
+title: "Tests estadísticos más comunes" 
+format: html
+editor: visual
+---
+
+Tests estadísticos más comunes y situaciones en que es correcto emplearlos.
+
+## Medias
+
+-   El test t para comparar una media o las medias de dos variables cuantitativas empleando muestras emparejadas o independientes si las dos variables son normales o las dos muestras son grandes.
+
+-   El test de Wilcoxon para comparar una media o las medias (de hecho, las medianas) de dos variables cuantitativas u ordinales empleando muestras emparejadas cuando no se puede usar un test t.
+
+-   El test de Mann-Whitney para comparar las medias (de hecho, las medianas) de dos variables cuantitativas u ordinales empleando muestras independientes cuando no se puede usar un test t.
+
+-   El análisis de la varianza, ANOVA, para contrastar la igualdad de las medias de más de dos variables cuantitativas (normalmente, la misma variable cuantitativa definida sobre diferentes subpoblaciones) bajo determinadas condiciones de normalidad y homocedasticidad de las variables, que dependen del tipo de ANOVA:
+
+    -   **ANOVA de 1 vía**: se emplea un único factor para definir las subpoblaciones, las muestras tienen que ser independientes, las variables poblacionales tienen que ser normales y las varianzas poblacionales tienen que ser iguales.
+
+    -   **ANOVA de bloques**: se emplea un único factor para definir las subpoblaciones, las muestras tienen que ser emparejadas por bloques aleatorios, no debe haber interacción entre bloques y tratamientos.
+
+    -   **ANOVA de 2 vías**: se emplean dos factores para definir las subpoblaciones, las muestras tienen que ser independientes, las variables poblacionales (para cada combinación de niveles, uno de cada factor) tienen que ser normales y todas con la misma varianza.
+
+    -   **El test de Kruskal-Wallis** para contrastar la igualdad de las medias (de hecho, las medianas) de más de dos variables cuantitativas u ordinales, definidas por una variable restringida a subpoblaciones definidas por los niveles de un único factor, a partir de muestras independientes cuando no se puede usar una ANOVA de 1 vía.
+
+    -   **El test de Friedman** para contrastar la igualdad de las medias (de hecho, las medianas) de más de dos variables cuantitativas u ordinales, definidas por una variable restringida a subpoblaciones por los niveles de un único factor, a partir de muestras emparejadas en bloques cuando no se puede usar una ANOVA de bloques.
+
+## Varianzas (y desviaciones típicas)
+
+-   El test ji-cuadrado de una varianza para comparar el valor de la varianza de una variable normal con un valor concreto.
+
+-   El test F para comparar las varianzas de dos variables normales.
+
+-   El test de Bartlett para contrastar la igualdad de las varianzas de más de dos variables normales
+
+-   El test de Fligner-Killeen para contrastar la igualdad de dos o más varianzas por poco que las variables difieran de ser normales.
+
+## Proporciones
+
+-   El test binomial exacto para comparar una proporción con un valor sin restricciones sobre la medida de la muestra.
+
+-   El test aproximado para comparar una proporción con un valor empleando una muestra grande y la aproximación a la normal dada por el TCL.
+
+-   El test khi-cuadrado de dos proporciones para comparar dos proporciones a partir de muestras independientes si las muestras son grandes y los números de éxitos y fracasos grandes.
+
+-   El test exacto de Fisher para comparar dos proporciones a partir de muestras independientes, sin restricciones sobre las medidas de las muestras.
+
+-   El test de McNemar para contrastar la igualdad o no de dos proporciones a partir de dos muestras aparejadas cuando el número de casos discordantes es grande.
+
+-   El test binomial para comparar dos proporciones a partir de dos muestras aparejadas, sin restricciones sobre las medidas de las muestras o el número de casos discordantes.
+
+## Independencia
+
+-   El test ji-cuadrado para contrastar la independencia o asociación de dos variables cualitativas si la muestra es grande y las frecuencias esperadas son las ⩾5.
+
+-   El test de correlación para contrastar si dos variables cuantitativas son incorrelades.
+
+## Bondad de ajuste
+
+-   El test ji-cuadrado de bondad de ajuste para contrastar si una muestra proviene de una variable concreta si la muestra es grande y las frecuencias esperadas son ⩾5.
+
+-   El test de Kolmogorov-Smirnov para contrastar si una muestra proviene de una variable cuantitativa concreta.
+
+-   El test de normalidad (de K-S-Lilliefors, de Anderson-Darling, de Shapiro-Wilk…) para contrastar si una muestra proviene de alguna variable normal.
